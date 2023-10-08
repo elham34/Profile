@@ -1,8 +1,10 @@
-//
-//  File.swift
-//  Profile
-//
-//  Created by Amal Abughazaleh on 23/03/1445 AH.
-//
+import SwiftUI
 
-import Foundation
+@main
+struct TestApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		298399552AD2A1F30084412D /* ProfileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298399542AD2A1F30084412D /* ProfileApp.swift */; };
+		296ECF6D2AD2AE10002A23E2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296ECF6C2AD2AE10002A23E2 /* File.swift */; };
 		298399572AD2A1F30084412D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298399562AD2A1F30084412D /* ContentView.swift */; };
 		298399592AD2A1F50084412D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298399582AD2A1F50084412D /* Assets.xcassets */; };
 		2983995C2AD2A1F50084412D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2983995B2AD2A1F50084412D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		296ECF6C2AD2AE10002A23E2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		298399512AD2A1F30084412D /* Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profile.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		298399542AD2A1F30084412D /* ProfileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileApp.swift; sourceTree = "<group>"; };
 		298399562AD2A1F30084412D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		298399582AD2A1F50084412D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2983995B2AD2A1F50084412D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,8 +51,8 @@
 		298399532AD2A1F30084412D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				298399542AD2A1F30084412D /* ProfileApp.swift */,
 				298399562AD2A1F30084412D /* ContentView.swift */,
+				296ECF6C2AD2AE10002A23E2 /* File.swift */,
 				298399582AD2A1F50084412D /* Assets.xcassets */,
 				2983995A2AD2A1F50084412D /* Preview Content */,
 			);
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				298399572AD2A1F30084412D /* ContentView.swift in Sources */,
-				298399552AD2A1F30084412D /* ProfileApp.swift in Sources */,
+				296ECF6D2AD2AE10002A23E2 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
